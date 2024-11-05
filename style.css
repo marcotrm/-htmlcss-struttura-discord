@@ -4,3 +4,46 @@
     margin: 0;
     padding: 0;
 }
+
+/* HEADER */
+
+.header-top{
+    background-color: #add8e6;
+    padding: 15px ;
+}
+
+.header-top > .container{
+    display: flex;
+    background: #daa520;
+}
+
+.header-top .logo,
+.header-top nav,
+.header-top .login{
+    border: 1px dashed black;
+    padding: 6px;
+}
+.header-top .logo, .header-top .login{
+    width: 20%;
+}
+
+.header-top .login{
+    text-align: right;
+}
+
+.header-top nav{
+    width: 60%;
+    text-align: center;
+}
+.header-bottom{
+    background-color: darkblue;
+    min-height: 200px;
+    padding: 30px;
+    border-bottom: 2px solid aqua;
+
+}.header-bottom > .container{
+    display: flex;
+    background-color: magenta;
+    min-height: 140px;
+    border: 1px dashed black;
+}
