@@ -15,15 +15,14 @@
 .header-top > .container{
     display: flex;
     background: #daa520;
-    
 }
 
 .container{
-    width: 700px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 .header-bottom > .container{
-width: 550px;
+max-width: 900px;
 }
 
 .header-top .logo,
@@ -46,19 +45,34 @@ width: 550px;
 }
 .header-bottom{
     background-color: darkblue;
-    min-height: 200px;
     padding: 30px;
     border-bottom: 2px solid aqua;
+    min-height: 300px;
 
 }.header-bottom > .container{
     display: flex;
     background-color: magenta;
-    min-height: 140px;
+    min-height: 239px;
     border: 1px dashed black;
 }
 
 /* COLMN */
 .clmns{
     display: flex;
-    min-height: 200px;
+    min-height: 300px;
+    padding: 20px; 
+    max-width: 1200px;
+    
+}
+.clmn-blue{
+    width: 70%;
+    background-color: #1e90ff;
+    border: 2px dashed black;
+    margin: 0 0 0 auto;
+}
+.clmn-rose{
+    width: 30%;
+    background-color: #ffc0cb;
+    border: 2px dashed black;
+    margin: 0 auto 0 0;
 }
