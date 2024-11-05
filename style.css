@@ -61,18 +61,16 @@ max-width: 900px;
     display: flex;
     min-height: 300px;
     padding: 20px; 
-    max-width: 1200px;
-    
+
 }
 .clmn-blue{
     width: 70%;
     background-color: #1e90ff;
     border: 2px dashed black;
-    margin: 0 0 0 auto;
+   
 }
 .clmn-rose{
     width: 30%;
     background-color: #ffc0cb;
-    border: 2px dashed black;
-    margin: 0 auto 0 0;
+    border: 2px dashed black;  
 }
