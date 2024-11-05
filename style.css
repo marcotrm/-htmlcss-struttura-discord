@@ -15,6 +15,15 @@
 .header-top > .container{
     display: flex;
     background: #daa520;
+    
+}
+
+.container{
+    width: 700px;
+    margin: 0 auto;
+}
+.header-bottom > .container{
+width: 550px;
 }
 
 .header-top .logo,
@@ -46,4 +55,10 @@
     background-color: magenta;
     min-height: 140px;
     border: 1px dashed black;
+}
+
+/* COLMN */
+.clmns{
+    display: flex;
+    min-height: 200px;
 }
