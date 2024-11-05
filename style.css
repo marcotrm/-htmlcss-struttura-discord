@@ -92,3 +92,16 @@ max-width: 900px;
 
 }
 
+.big-clmn{
+    width: 100%;
+    min-height: 650px;
+    background-color: #228b22;
+    border: 2px dashed black;
+   
+    
+}
+.container-big{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 25px;
+}
